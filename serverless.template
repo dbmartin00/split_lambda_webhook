@@ -1,0 +1,13 @@
+{
+  "Description": "A lambda webhook for split impressions",
+  "Resources": {
+    "HelloWorld": {
+      "Type": "AWS::Serverless::Function",
+      "Properties": {
+        "Handler": "com.amazonaws.lambda.webhook.LambdaFunctionHandler",
+        "Runtime" : "java8",
+        "CodeUri" : "./target/io_split_lambda_webhook-1.0.0.jar"
+      }
+    }
+  }
+}
