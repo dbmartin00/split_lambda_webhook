@@ -143,7 +143,7 @@ public class Impression {
 		    result.put("split",getSplit());
 		    result.put("environmentId", getEnvironmentId());
 		    result.put("environmentName", getEnvironmentName());
-		    result.put("treatement", getTreatment());
+		    result.put("treatment", getTreatment());
 		    result.put("time", getTime());
 		    result.put("bucketingKey", getBucketingKey());
 		    result.put("label", getLabel());
